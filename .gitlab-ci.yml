@@ -1,0 +1,42 @@
+image: node:18
+
+stages:
+  - build
+  - deploy
+
+variables:
+  JAVA_TOOL_OPTIONS: "-Xmx4g -Dfile.encoding=UTF-8"
+
+before_script:
+  - apt-get update -qq && apt-get install -y curl unzip git openjdk-17-jdk ruby-full build-essential zlib1g-dev
+  - gem install bundler jekyll
+  - java -version
+  - node -v
+  - npm -v
+  - npm install -g fsh-sushi
+  - sushi --version
+  - echo "Instalando IG Publisher..."
+  - mkdir -p input-cache
+  - curl -L -o input-cache/publisher.jar https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
+  - curl -L -o _genonce.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_genonce.sh
+  - chmod +x _genonce.sh
+
+build-ig:
+  stage: build
+  script:
+    - ./_genonce.sh
+    - mkdir -p public
+    - cp -r output/* public/
+  artifacts:
+    paths:
+      - public/
+
+pages:
+  stage: deploy
+  script:
+    - echo "Desplegando GitLab Pages..."
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # o "master" si esa es tu rama principal
