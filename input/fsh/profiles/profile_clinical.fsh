@@ -1,3 +1,4 @@
+/*
 // Los dos siguientes perfiles y la extensión, están puestos solo a modo de ejemplo. No formarán parte de la IG definitiva del SESCAM.
 
 Profile: SESCAMBodyMassIndex
@@ -25,3 +26,4 @@ Id: age-at-osa-diagnosis
 Title: "Extension: Edad en el momento del diagnóstico"
 Description: "La fecha (y hora) en la que se realizó el diagnóstico de la OSA. Tenga en cuenta que esto podría calcularse a partir de la fecha y hora del diagnóstico y la fecha de nacimiento."
 * value[x] only Age
+*/

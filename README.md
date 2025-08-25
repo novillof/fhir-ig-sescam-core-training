@@ -22,7 +22,7 @@ Para crear y visualizar esta FHIR IG en local, sigue los siguientes pasos:
 5. Clona el repo:
 
    ```bash
-   git clone git@gitlab.com:orionhealth/solutions/emea/spain/fhir/fsh_ig_sescam.git 
+   git clone git@gitlab.com:orionhealth/solutions/emea/spain/fhir/fhir-ig-sescam-core.git
    ```
 
 6. Abre un terminal dentro de la carpeta de la IG y ejecuta el script de actualización del publisher:
@@ -39,6 +39,8 @@ Para crear y visualizar esta FHIR IG en local, sigue los siguientes pasos:
 
 8. Abre `output/index.html` en tu navegador. Deberías ver una página de la IG titulada **"SESCAM Core FHIR IG"**.
 
+Nota adicional: cada vez que hagas cambios en la guía, puedes ejecutar "sushi" desde tu carpeta local para asegurar que no hay errores en la guía antes de publicarla con genonce.
+
 
 ## CI/CD Pipeline (GitLab)
 
@@ -48,9 +50,9 @@ Build the FHIR Implementation Guide (IG) using SUSHI and the official HL7 IG Pub
 
 Automatically publish the generated IG as a static website using GitLab Pages whenever a push is made to the main branch.
 
-See https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fsh_ig_sample/-/ci/editor (.gitlab-ci.yml) for configuration.
+See https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fhir-ig-sescam-core/-/ci/editor (.gitlab-ci.yml) for configuration.
 
-Go to deploy > pages https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fsh_ig_sample/pages#overview to see where the current IG is deployed online. Example: https://fsh-ig-sample-cf6321.gitlab.io/ 
+Go to deploy > pages https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fsh_ig_sample/pages#overview to see where the current IG is deployed online. Example: https://fhir-ig-sescam-core-83ea58.gitlab.io 
 
 ## License
 
