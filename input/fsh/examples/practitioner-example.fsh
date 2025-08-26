@@ -1,6 +1,6 @@
 Instance: sescam-practitioner-sandro-balboa
 InstanceOf: SESCAMPractitioner
-Title: "Practitioner SESCAM Ejemplo"
+Title: "Practitioner SESCAM - Ejemplo"
 Description: "Ejemplo de Profesional de Salud SESCAM."
 * name.family = "Balboa Herrero"
 * name.given[0] = "Sandro"

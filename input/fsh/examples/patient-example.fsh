@@ -1,18 +1,20 @@
 Instance: sescam-patient-juan-lopez-garcia
 InstanceOf: SESCAMPatient
-Title: "Patient SESCAM – ejemplo con HumanName (SESCAM/EU)"
+Title: "Patient SESCAM - ejemplo con HumanName (SESCAM/EU)"
 Description: "Paciente SESCAM con doble apellido y extensiones de apellidos paterno/materno."
 
 * active = true
 
 // CIP-SNS actual
-* identifier[cipSns][0].use = #usual
-* identifier[cipSns][0].value = "PNRV901264600010"
+* identifier[cipSns][+].use = #usual
+* identifier[cipSns][=].type = $IdType#HC
+* identifier[cipSns][=].value = "PNRV901264600010"
 
 // CIP-SNS anterior
-* identifier[cipSns][1].use = #old
-* identifier[cipSns][1].value = "PNRV901264600001"
-* identifier[cipSns][1].period.end = "2020-03-24"
+* identifier[cipSns][+].use = #old
+* identifier[cipSns][=].type = $IdType#HC
+* identifier[cipSns][=].value = "PNRV901264600001"
+* identifier[cipSns][=].period.end = "2020-03-24"
 
 // Sexo y fecha de nacimiento
 * gender = #male
