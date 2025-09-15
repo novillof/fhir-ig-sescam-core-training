@@ -13,6 +13,6 @@ Alias:  $EUCorePractitioner = http://hl7.eu/fhir/base-r5/StructureDefinition/pra
 // paquete R5 “hl7.fhir.eu.base-r5” publicado (0.1.0-ballot), por lo que clonaremos el tipo de dato hasta que esté disponible.
 //Alias:  $EUHumanName = http://hl7.eu/fhir/base-r5/StructureDefinition/HumanName-eu
 // TODO: Cambiar la url http://sanidad.castillalamancha.es... por el dominio definitivo de esta IG.
-Alias:  $SESCAMHumanName = http://sanidad.castillalamancha.es/fhir/ig/core/StructureDefinition/humanname-eu-sescam
+Alias:  $SESCAMHumanName = https://sescam.jccm.es/fhir/ig/StructureDefinition/humanname-eu-sescam
 
 

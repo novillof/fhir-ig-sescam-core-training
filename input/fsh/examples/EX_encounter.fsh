@@ -7,5 +7,5 @@ Description: "Cita ambulatoria de Juan López García"
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB "ambulatory"  
 * subject = Reference(sescam-patient-juan-lopez-garcia)
 
-* identifier[0].system = "http://sanidad.castillalamancha.es/fhir/sid/encounter-id"
+* identifier[0].system = "https://sescam.jccm.es/fhir/sid/encounter-id"
 * identifier[0].value = "ENC-2025-000123"
