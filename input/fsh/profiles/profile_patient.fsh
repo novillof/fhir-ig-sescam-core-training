@@ -24,6 +24,9 @@ Description: "Perfil del Paciente SESCAM, derivado del perfil EU Core Patient"
 * identifier[cipSns].type ^patternCodeableConcept = $IdType#HC
 * identifier[nhc].type ^patternCodeableConcept = $IdType#MR  //TODO: verificar si el NHC es de ámbito global para toda CLM o hay NHCs por cada hospital
 
+* identifier[cipSns].use MS //Con el use distinguimos un cip válido de uno antiguo
+* identifier[cipSns].use ^short = "usual (cipSns en vigor) | official | temp | secondary | old (cipSns deprecado)"
+
 // (Opcional) textos cortos de ayuda
 * identifier[nif] ^short = "NIF/NIE (identificador fiscal en España)"
 //* identifier[passport] ^short = "Número de pasaporte"
