@@ -74,6 +74,8 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  External:
+    EU Core (R5): https://hl7.eu/fhir/base-r5/index.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

@@ -5,3 +5,4 @@ Description: "Perfil del Episodio SESCAM"
 * identifier 1..*
 * subject 1..1 
 * subject only Reference(Patient)
+* type from SESCAMEncounterTypeVS (extensible)
