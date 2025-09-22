@@ -74,6 +74,7 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  About: about.html
   External:
     EU Core (R5): https://hl7.eu/fhir/base-r5/index.html
 

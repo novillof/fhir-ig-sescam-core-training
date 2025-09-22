@@ -2,7 +2,7 @@ CodeSystem: SESCAMEncounterTypeCS
 Id: cs-sescam-encounter-type
 Title: "Tipos de Episodio SESCAM"
 Description: "Códigos internos SESCAM para Encounter.type"
-* ^status = #active
+* ^status = #draft
 * ^experimental = false 
 * ^caseSensitive = true
 * ^content = #complete
