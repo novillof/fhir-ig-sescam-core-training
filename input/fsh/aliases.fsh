@@ -12,9 +12,9 @@ Alias:  $EUCorePractitioner = http://hl7.eu/fhir/base-r5/StructureDefinition/pra
 // El HumanName-eu está definido en la guía EU de Laboratorios en R4, pero aún no está en en el 
 // paquete R5 “hl7.fhir.eu.base-r5” publicado (0.1.0-ballot), por lo que clonaremos el tipo de dato hasta que esté disponible.
 //Alias:  $EUHumanName = http://hl7.eu/fhir/base-r5/StructureDefinition/HumanName-eu
-Alias:  $SESCAMHumanName = https://sescam.jccm.es/fhir/ig/StructureDefinition/humanname-eu-sescam
+Alias:  $SESCAMHumanName = https://sescam.jccm.es/fhir/ig/core/StructureDefinition/humanname-eu-sescam
 
 // SESCAM
-Alias:  $SESCAM = https://sescam.jccm.es/fhir/ig
-Alias:  $SESCAMEncounterTypeCS = https://sescam.jccm.es/fhir/ig/CodeSystem/cs-sescam-encounter-type
-Alias:  $SESCAMEncounterTypeVS = https://sescam.jccm.es/fhir/ig/ValueSet/vs-sescam-encounter-type
+Alias:  $SESCAM = https://sescam.jccm.es/fhir/ig/core
+Alias:  $SESCAMEncounterTypeCS = https://sescam.jccm.es/fhir/ig/core/CodeSystem/cs-sescam-encounter-type
+Alias:  $SESCAMEncounterTypeVS = https://sescam.jccm.es/fhir/ig/core/ValueSet/vs-sescam-encounter-type

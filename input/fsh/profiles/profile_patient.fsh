@@ -6,6 +6,7 @@ Description: "Perfil del Paciente SESCAM, derivado del perfil EU Core Patient"
 * name only $SESCAMHumanName
 //* generalPractitioner only Reference(SESCAMPractitioner)
 
+* identifier 1..* MS
 // Identificadores del paciente. Slicing solo por type
 * identifier ^slicing.discriminator[0].type = #value
 * identifier ^slicing.discriminator[0].path = "type"
