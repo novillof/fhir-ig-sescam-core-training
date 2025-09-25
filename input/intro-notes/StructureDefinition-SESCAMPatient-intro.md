@@ -20,8 +20,7 @@ El perfil define los siguientes slices de `identifier` (discriminados por `type`
 
 - **nif (0..1, MS)**: NIF/NIE. `type` con patrón `NNESP`.
 - **nass (0..1, MS)**: Número de afiliación a la Seguridad Social. `type` con patrón `SS`.
-- **cipSns (0..*, MS)**: Código de identificación personal del SNS. `type` con patrón `HC`.
-  - Se recomienda usar `identifier.use` para distinguir el CIP en vigor (`usual`) de códigos previos (`old`).
+- **cipSns (0..1, MS)**: Código de identificación personal del SNS. `type` con patrón `HC`.
 - **nhc (0..*, MS)**: Número de historia clínica. `type` con patrón `MR`.
 
 Notas:
@@ -31,12 +30,11 @@ Notas:
 ### Recomendaciones de implementación
 
 - Mantener la coherencia del `identifier.type` con los sistemas de codificación acordados (p. ej., Identificador de tipo de documento, SS, HC, MR).
-- Gestionar el ciclo de vida de `cipSns` con `identifier.use` para evitar ambigüedades en historiales.
 - Respetar el perfilado de `HumanName` para facilitar búsquedas y emparejamientos (matching) entre sistemas.
 
 ### Interoperabilidad y calidad de datos
 
-- Proveer al menos un identificador robusto (p. ej., `cipSns` usual o `nif`) cuando esté disponible.
+- Proveer al menos un identificador robusto (p. ej., `cipSns` o `nif`) cuando esté disponible.
 - Evitar valores inconsistentes entre `identifier.value` y `identifier.type`.
 - Asegurar que los sistemas que consumen datos comprendan las cardinalidades y las marcas MS.
 

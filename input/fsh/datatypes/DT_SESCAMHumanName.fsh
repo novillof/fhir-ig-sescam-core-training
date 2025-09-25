@@ -1,5 +1,5 @@
 // Data Type Profile: HumanName (SESCAM, alineado con EU)
-// Canonical resultará: {canonical-IG}/StructureDefinition/humanname-eu-sescam
+// Canonical resultará: {canonical-IG}/StructureDefinition-humanname-eu-sescam
 
 Profile: SESCAMHumanName
 Parent: HumanName
@@ -8,7 +8,7 @@ Title: "HumanName (SESCAM, EU-aligned)"
 Description: "Perfil de HumanName alineado con HL7 Europe HumanName-eu (múltiples apellidos), portado a R5."
 
 // Binding de uso del nombre (R5)
-* use from http://hl7.org/fhir/ValueSet/name-use (required)
+//* use from http://hl7.org/fhir/ValueSet/name-use (required)
 
 // Permite múltiples apellidos a través de extensiones estándar de FHIR
 * family 0..1

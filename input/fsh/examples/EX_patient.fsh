@@ -10,11 +10,10 @@ Description: "Paciente SESCAM con doble apellido y extensiones de apellidos pate
 * identifier[cipSns][=].type = $IdType#HC
 * identifier[cipSns][=].value = "PNRV901264600010"
 
-// CIP-SNS anterior
-* identifier[cipSns][+].use = #old
-* identifier[cipSns][=].type = $IdType#HC
-* identifier[cipSns][=].value = "PNRV901264600001"
-* identifier[cipSns][=].period.end = "2020-03-24"
+// NIF
+* identifier[nif][+].use = #official
+* identifier[nif][=].type = $IdType#NNESP
+* identifier[nif][=].value = "12345678A"
 
 // Sexo y fecha de nacimiento
 * gender = #male
