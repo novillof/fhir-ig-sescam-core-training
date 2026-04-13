@@ -11,7 +11,7 @@ Si quieres realizar cambios en esta FHIR IG se recomienda tener conocimientos de
 
 Para crear y visualizar esta FHIR IG en local, sigue los siguientes pasos:
 
-1. **Instala [Visual Studio Code](https://code.visualstudio.com/)** y el [FHIR Shorthand (FSH) language extension](https://marketplace.visualstudio.com/items?itemName=KurtKanaskie.vscode-language-fsh).
+1. **Instala [Visual Studio Code](https://code.visualstudio.com/)** y el [FHIR Shorthand (FSH) language extension](https://marketplace.visualstudio.com/items?itemName=FHIR-Shorthand.vscode-fsh).
 
 2. **Instala [Java runtime](https://adoptium.net/temurin/releases/)** (Java 17 recomendado).
 
