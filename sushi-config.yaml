@@ -26,7 +26,7 @@ publisher:
 #
 # Para añadir dependencias, buscar los paquetes en https://simplifier.net/packages/ 
 dependencies:
-  hl7.fhir.eu.base-r5: 0.1.0-ballot
+  hl7.fhir.eu.base-r5: 0.1.0
   hl7.fhir.uv.extensions.r5: 5.2.0
  
 #
