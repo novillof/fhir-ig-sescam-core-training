@@ -22,7 +22,7 @@ Para crear y visualizar esta FHIR IG en local, sigue los siguientes pasos:
 5. Clona el repo:
 
    ```bash
-   git clone git@gitlab.com:orionhealth/solutions/emea/spain/fhir/fhir-ig-sescam-core.git
+   git clone git@github.com:novillof/fhir-ig-sescam-core-training.git
    ```
 
 6. Abre un terminal dentro de la carpeta de la IG y ejecuta el script de actualización del publisher:
