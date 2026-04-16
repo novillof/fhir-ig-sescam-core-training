@@ -1,0 +1,24 @@
+{
+  "package-id": "fhir.sescam.core",
+  "title": "SESCAM Core FHIR IG",
+  "canonical": "https://sescam.jccm.es/fhir/ig/core",
+  "introduction": "Guia de Implementacion en FHIR del SESCAM",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://sescam.jccm.es/fhir/ig/core",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-04-16",
+      "desc": "Primer borrador de la guia",
+      "path": "https://sescam.jccm.es/fhir/ig/core/0.1.0",
+      "status": "draft",
+      "sequence": "Draft",
+      "current": false
+    }
+  ]
+}
