@@ -42,21 +42,7 @@ Para crear y visualizar esta FHIR IG en local, sigue los siguientes pasos:
 Nota adicional: cada vez que hagas cambios en la guía, puedes ejecutar "sushi" desde tu carpeta local para asegurar que no hay errores en la guía antes de publicarla con genonce.
 
 
-## CI/CD Pipeline (GitLab)
-
-This project uses a GitLab CI pipeline to:
-
-Build the FHIR Implementation Guide (IG) using SUSHI and the official HL7 IG Publisher.
-
-Automatically publish the generated IG as a static website using GitLab Pages whenever a push is made to the main branch.
-
-See https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fhir-ig-sescam-core/-/ci/editor (.gitlab-ci.yml) for configuration.
-
-Go to deploy > pages https://gitlab.com/orionhealth/solutions/emea/spain/fhir/fsh_ig_sample/pages#overview to see where the current IG is deployed online. Example: https://fhir-ig-sescam-core-83ea58.gitlab.io 
-
 ## License
-
-Copyright 2025+ Orion Health
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
