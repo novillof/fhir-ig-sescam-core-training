@@ -34,3 +34,8 @@ Description: "Perfil del Paciente SESCAM, derivado del perfil EU Core Patient"
 * identifier[nass] ^short = "Número de afiliación a la Seguridad Social"
 * identifier[cipSns] ^short = "Código de identificación personal único del SNS"
 * identifier[nhc] ^short = "Número de historia clínica"
+
+// Registrar obligatoriamente si el individuo ha fallecido 
+* deceased[x] 1..1
+* deceased[x] only boolean 
+
