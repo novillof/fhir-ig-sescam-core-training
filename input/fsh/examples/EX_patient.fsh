@@ -50,3 +50,4 @@ Description: "Paciente SESCAM con doble apellido y extensiones de apellidos pate
 * contact.organization = Reference(sescam-organization)
 * contained = sescam-organization
 
+* deceasedBoolean = false
