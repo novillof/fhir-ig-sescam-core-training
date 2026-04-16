@@ -34,3 +34,5 @@ Description: "Perfil del Paciente SESCAM, derivado del perfil EU Core Patient"
 * identifier[nass] ^short = "Número de afiliación a la Seguridad Social"
 * identifier[cipSns] ^short = "Código de identificación personal único del SNS"
 * identifier[nhc] ^short = "Número de historia clínica"
+
+* address.extension contains SESCAMProvincia named provincia 0..1
