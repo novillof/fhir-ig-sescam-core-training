@@ -33,9 +33,10 @@ Description: "Paciente SESCAM con doble apellido y extensiones de apellidos pate
 * address[0].use = #home
 * address[=].line = "Calle Crespas, 17"
 * address[=].city = "Consuegra"
-* address[=].state = "Toledo"
+//* address[=].state = "Toledo"
 * address[=].postalCode = "45700"
 * address[=].country = "ES"
+* address[=].extension[SESCAMProvincia].valueString = "Toledo"
 
 * telecom[0].system = #phone
 * telecom[=].value = "600600601"
@@ -49,4 +50,3 @@ Description: "Paciente SESCAM con doble apellido y extensiones de apellidos pate
 
 * contact.organization = Reference(sescam-organization)
 * contained = sescam-organization
-
